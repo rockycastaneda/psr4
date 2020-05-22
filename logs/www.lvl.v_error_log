@@ -1,0 +1,115 @@
+[Fri May 22 00:25:01.355696 2020] [php7:notice] [pid 41267] [client ::1:52423] PHP Warning:  require(/Users/rox/dvb/psr4/public/../vendor/autoload.php): failed to open stream: No such file or directory in /Users/rox/dvb/psr4/public/index.php on line 3, referer: http://localhost/
+[Fri May 22 00:25:01.356424 2020] [php7:notice] [pid 41267] [client ::1:52423] PHP Stack trace:, referer: http://localhost/
+[Fri May 22 00:25:01.356669 2020] [php7:notice] [pid 41267] [client ::1:52423] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0, referer: http://localhost/
+[Fri May 22 00:25:01.357952 2020] [php7:notice] [pid 41267] [client ::1:52423] PHP Fatal error:  require(): Failed opening required '/Users/rox/dvb/psr4/public/../vendor/autoload.php' (include_path='.:/usr/local/Cellar/php/7.4.0/share/php/pear') in /Users/rox/dvb/psr4/public/index.php on line 3, referer: http://localhost/
+[Fri May 22 00:25:01.357986 2020] [php7:notice] [pid 41267] [client ::1:52423] PHP Stack trace:, referer: http://localhost/
+[Fri May 22 00:25:01.357998 2020] [php7:notice] [pid 41267] [client ::1:52423] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0, referer: http://localhost/
+[Fri May 22 00:33:24.618561 2020] [php7:error] [pid 41266] [client ::1:52752] script '/Users/rox/dvb/psr4/bootstrap.php' not found or unable to stat
+[Fri May 22 00:44:57.682038 2020] [php7:notice] [pid 41265] [client ::1:53247] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) in /Users/rox/dvb/psr4/src/Foreup_api.php on line 19, referer: http://localhost/
+[Fri May 22 00:48:34.733720 2020] [php7:notice] [pid 41269] [client ::1:53385] , referer: http://localhost/public/
+[Fri May 22 00:48:34.738123 2020] [php7:notice] [pid 41269] [client ::1:53385] PHP Fatal error:  Uncaught Httpful\\Exception\\ConnectionErrorException: Unable to connect to "https: //mobile.foreupsoftware.com/api_rest/index.php/tokens": 3  in /Users/rox/dvb/psr4/vendor/nategood/httpful/src/Httpful/Request.php:1060\nStack trace:\n#0 /Users/rox/dvb/psr4/vendor/nategood/httpful/src/Httpful/Request.php(229): Httpful\\Request->buildResponse(false)\n#1 /Users/rox/dvb/psr4/src/Foreup_api.php(25): Httpful\\Request->send()\n#2 /Users/rox/dvb/psr4/public/index.php(9): Rox\\Foreup_api->authenticate('devtesting', 'devtesting1')\n#3 {main}\n  thrown in /Users/rox/dvb/psr4/vendor/nategood/httpful/src/Httpful/Request.php on line 1060, referer: http://localhost/public/
+[Fri May 22 00:56:00.325728 2020] [php7:notice] [pid 41269] [client ::1:53808] PHP Notice:  Undefined variable: email in /Users/rox/dvb/psr4/src/Foreup_api.php on line 22, referer: http://localhost/public/
+[Fri May 22 00:56:00.325928 2020] [php7:notice] [pid 41269] [client ::1:53808] PHP Stack trace:, referer: http://localhost/public/
+[Fri May 22 00:56:00.325942 2020] [php7:notice] [pid 41269] [client ::1:53808] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0, referer: http://localhost/public/
+[Fri May 22 00:56:00.326043 2020] [php7:notice] [pid 41269] [client ::1:53808] PHP   2. Rox\\Foreup_api->authenticate() /Users/rox/dvb/psr4/public/index.php:9, referer: http://localhost/public/
+[Fri May 22 00:56:00.326533 2020] [php7:notice] [pid 41269] [client ::1:53808] PHP Warning:  Creating default object from empty value in /Users/rox/dvb/psr4/src/Foreup_api.php on line 22, referer: http://localhost/public/
+[Fri May 22 00:56:00.326579 2020] [php7:notice] [pid 41269] [client ::1:53808] PHP Stack trace:, referer: http://localhost/public/
+[Fri May 22 00:56:00.326604 2020] [php7:notice] [pid 41269] [client ::1:53808] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0, referer: http://localhost/public/
+[Fri May 22 00:56:00.326626 2020] [php7:notice] [pid 41269] [client ::1:53808] PHP   2. Rox\\Foreup_api->authenticate() /Users/rox/dvb/psr4/public/index.php:9, referer: http://localhost/public/
+[Fri May 22 01:02:50.126384 2020] [php7:notice] [pid 41265] [client ::1:54055] PHP Notice:  Undefined variable: email in /Users/rox/dvb/psr4/src/Foreup_api.php on line 22, referer: http://localhost/public/
+[Fri May 22 01:02:50.126839 2020] [php7:notice] [pid 41265] [client ::1:54055] PHP Stack trace:, referer: http://localhost/public/
+[Fri May 22 01:02:50.126876 2020] [php7:notice] [pid 41265] [client ::1:54055] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0, referer: http://localhost/public/
+[Fri May 22 01:02:50.126888 2020] [php7:notice] [pid 41265] [client ::1:54055] PHP   2. Rox\\Foreup_api->authenticate($username = *uninitialized*, $password = *uninitialized*) /Users/rox/dvb/psr4/public/index.php:9, referer: http://localhost/public/
+[Fri May 22 01:03:17.793377 2020] [php7:notice] [pid 41367] [client ::1:54077] PHP Warning:  Creating default object from empty value in /Users/rox/dvb/psr4/src/Foreup_api.php on line 22, referer: http://localhost/public/
+[Fri May 22 01:03:17.793613 2020] [php7:notice] [pid 41367] [client ::1:54077] PHP Stack trace:, referer: http://localhost/public/
+[Fri May 22 01:03:17.793658 2020] [php7:notice] [pid 41367] [client ::1:54077] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0, referer: http://localhost/public/
+[Fri May 22 01:03:17.793700 2020] [php7:notice] [pid 41367] [client ::1:54077] PHP   2. Rox\\Foreup_api->authenticate() /Users/rox/dvb/psr4/public/index.php:9, referer: http://localhost/public/
+[Fri May 22 01:03:33.134689 2020] [php7:notice] [pid 41367] [client ::1:54077] Could not resolve: mobile.foreupsoftware.com (Successful completion), referer: http://localhost/public/
+[Fri May 22 01:03:33.135894 2020] [php7:notice] [pid 41367] [client ::1:54077] PHP Fatal error:  Uncaught Httpful\\Exception\\ConnectionErrorException: Unable to connect to "https://mobile.foreupsoftware.com/api_rest/index.php/tokens": 6 Could not resolve: mobile.foreupsoftware.com (Successful completion) in /Users/rox/dvb/psr4/vendor/nategood/httpful/src/Httpful/Request.php:1060\nStack trace:\n#0 /Users/rox/dvb/psr4/vendor/nategood/httpful/src/Httpful/Request.php(229): Httpful\\Request->buildResponse(false)\n#1 /Users/rox/dvb/psr4/src/Foreup_api.php(31): Httpful\\Request->send()\n#2 /Users/rox/dvb/psr4/public/index.php(9): Rox\\Foreup_api->authenticate('devtesting', 'devtesting1')\n#3 {main}\n  thrown in /Users/rox/dvb/psr4/vendor/nategood/httpful/src/Httpful/Request.php on line 1060, referer: http://localhost/public/
+[Fri May 22 01:04:11.580264 2020] [php7:notice] [pid 41268] [client ::1:54101] PHP Warning:  Creating default object from empty value in /Users/rox/dvb/psr4/src/Foreup_api.php on line 22, referer: http://localhost/public/
+[Fri May 22 01:04:11.580506 2020] [php7:notice] [pid 41268] [client ::1:54101] PHP Stack trace:, referer: http://localhost/public/
+[Fri May 22 01:04:11.580520 2020] [php7:notice] [pid 41268] [client ::1:54101] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0, referer: http://localhost/public/
+[Fri May 22 01:04:11.580539 2020] [php7:notice] [pid 41268] [client ::1:54101] PHP   2. Rox\\Foreup_api->authenticate($email = *uninitialized*, $password = *uninitialized*) /Users/rox/dvb/psr4/public/index.php:9, referer: http://localhost/public/
+[Fri May 22 01:22:56.200069 2020] [php7:notice] [pid 41367] [client ::1:54833] PHP Notice:  Trying to get property 'code' of non-object in /Users/rox/dvb/psr4/src/Foreup_api.php on line 35
+[Fri May 22 01:22:56.200528 2020] [php7:notice] [pid 41367] [client ::1:54833] PHP Stack trace:
+[Fri May 22 01:22:56.200571 2020] [php7:notice] [pid 41367] [client ::1:54833] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0
+[Fri May 22 01:22:56.200595 2020] [php7:notice] [pid 41367] [client ::1:54833] PHP   2. Rox\\Foreup_api->authenticate($email = *uninitialized*, $password = *uninitialized*) /Users/rox/dvb/psr4/public/index.php:9
+[Fri May 22 01:22:58.173253 2020] [php7:notice] [pid 41367] [client ::1:54833] PHP Notice:  Trying to get property 'code' of non-object in /Users/rox/dvb/psr4/src/Foreup_api.php on line 35
+[Fri May 22 01:22:58.173657 2020] [php7:notice] [pid 41367] [client ::1:54833] PHP Stack trace:
+[Fri May 22 01:22:58.173688 2020] [php7:notice] [pid 41367] [client ::1:54833] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0
+[Fri May 22 01:22:58.173711 2020] [php7:notice] [pid 41367] [client ::1:54833] PHP   2. Rox\\Foreup_api->authenticate() /Users/rox/dvb/psr4/public/index.php:9
+[Fri May 22 01:23:56.719705 2020] [php7:notice] [pid 41365] [client ::1:54878] PHP Notice:  Trying to get property 'code' of non-object in /Users/rox/dvb/psr4/src/Foreup_api.php on line 35
+[Fri May 22 01:23:56.719972 2020] [php7:notice] [pid 41365] [client ::1:54878] PHP Stack trace:
+[Fri May 22 01:23:56.719996 2020] [php7:notice] [pid 41365] [client ::1:54878] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0
+[Fri May 22 01:23:56.720016 2020] [php7:notice] [pid 41365] [client ::1:54878] PHP   2. Rox\\Foreup_api->authenticate($email = *uninitialized*, $password = *uninitialized*) /Users/rox/dvb/psr4/public/index.php:9
+[Fri May 22 01:29:06.100987 2020] [php7:notice] [pid 41365] [client ::1:54878] PHP Notice:  Undefined property: stdClass::$code in /Users/rox/dvb/psr4/src/Foreup_api.php on line 37
+[Fri May 22 01:29:06.101287 2020] [php7:notice] [pid 41365] [client ::1:54878] PHP Stack trace:
+[Fri May 22 01:29:06.101306 2020] [php7:notice] [pid 41365] [client ::1:54878] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0
+[Fri May 22 01:29:06.101320 2020] [php7:notice] [pid 41365] [client ::1:54878] PHP   2. Rox\\Foreup_api->authenticate($email = *uninitialized*, $password = *uninitialized*) /Users/rox/dvb/psr4/public/index.php:9
+[Fri May 22 01:41:48.317178 2020] [php7:notice] [pid 50404] [client ::1:55488] PHP Warning:  Illegal string offset 'data' in /Users/rox/dvb/psr4/src/Foreup_api.php on line 39
+[Fri May 22 01:41:48.317827 2020] [php7:notice] [pid 50404] [client ::1:55488] PHP Stack trace:
+[Fri May 22 01:41:48.317851 2020] [php7:notice] [pid 50404] [client ::1:55488] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0
+[Fri May 22 01:41:48.317866 2020] [php7:notice] [pid 50404] [client ::1:55488] PHP   2. Rox\\Foreup_api->authenticate($email = *uninitialized*, $password = *uninitialized*) /Users/rox/dvb/psr4/public/index.php:9
+[Fri May 22 01:42:49.157682 2020] [php7:notice] [pid 41269] [client ::1:55517] PHP Notice:  Trying to get property 'data' of non-object in /Users/rox/dvb/psr4/src/Foreup_api.php on line 39
+[Fri May 22 01:42:49.158063 2020] [php7:notice] [pid 41269] [client ::1:55517] PHP Stack trace:
+[Fri May 22 01:42:49.158096 2020] [php7:notice] [pid 41269] [client ::1:55517] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0
+[Fri May 22 01:42:49.158112 2020] [php7:notice] [pid 41269] [client ::1:55517] PHP   2. Rox\\Foreup_api->authenticate($email = *uninitialized*, $password = *uninitialized*) /Users/rox/dvb/psr4/public/index.php:9
+[Fri May 22 01:44:35.125994 2020] [php7:notice] [pid 41265] [client ::1:55557] PHP Notice:  Undefined property: stdClass::$token in /Users/rox/dvb/psr4/src/Foreup_api.php on line 42
+[Fri May 22 01:44:35.126436 2020] [php7:notice] [pid 41265] [client ::1:55557] PHP Stack trace:
+[Fri May 22 01:44:35.126486 2020] [php7:notice] [pid 41265] [client ::1:55557] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0
+[Fri May 22 01:44:35.126512 2020] [php7:notice] [pid 41265] [client ::1:55557] PHP   2. Rox\\Foreup_api->authenticate() /Users/rox/dvb/psr4/public/index.php:9
+[Fri May 22 01:45:45.937524 2020] [php7:notice] [pid 41266] [client ::1:55581] PHP Notice:  Undefined property: stdClass::$token in /Users/rox/dvb/psr4/src/Foreup_api.php on line 42
+[Fri May 22 01:45:45.937771 2020] [php7:notice] [pid 41266] [client ::1:55581] PHP Stack trace:
+[Fri May 22 01:45:45.937786 2020] [php7:notice] [pid 41266] [client ::1:55581] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0
+[Fri May 22 01:45:45.937799 2020] [php7:notice] [pid 41266] [client ::1:55581] PHP   2. Rox\\Foreup_api->authenticate($email = *uninitialized*, $password = *uninitialized*) /Users/rox/dvb/psr4/public/index.php:9
+[Fri May 22 01:55:01.514955 2020] [php7:notice] [pid 41366] [client ::1:55876] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) in /Users/rox/dvb/psr4/src/Foreup_api.php on line 28
+[Fri May 22 01:55:48.699376 2020] [php7:notice] [pid 41269] [client ::1:55929] PHP Fatal error:  Uncaught Error: Call to undefined function Rox\\setValidUser() in /Users/rox/dvb/psr4/src/Foreup_api.php:58\nStack trace:\n#0 /Users/rox/dvb/psr4/public/index.php(9): Rox\\Foreup_api->authenticate('devtesting', 'devtesting1')\n#1 {main}\n  thrown in /Users/rox/dvb/psr4/src/Foreup_api.php on line 58
+[Fri May 22 03:18:15.655976 2020] [php7:notice] [pid 41269] [client ::1:59004] PHP Warning:  Creating default object from empty value in /Users/rox/dvb/psr4/public/index.php on line 27
+[Fri May 22 03:18:15.656528 2020] [php7:notice] [pid 41269] [client ::1:59004] PHP Stack trace:
+[Fri May 22 03:18:15.656569 2020] [php7:notice] [pid 41269] [client ::1:59004] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0
+[Fri May 22 03:18:15.657108 2020] [php7:notice] [pid 41269] [client ::1:59004] PHP Fatal error:  Uncaught Error: Call to undefined method Rox\\Foreup_api::CreateCustomer() in /Users/rox/dvb/psr4/public/index.php:44\nStack trace:\n#0 {main}\n  thrown in /Users/rox/dvb/psr4/public/index.php on line 44
+[Fri May 22 03:18:56.918782 2020] [php7:notice] [pid 41268] [client ::1:59038] PHP Warning:  Creating default object from empty value in /Users/rox/dvb/psr4/public/index.php on line 27
+[Fri May 22 03:18:56.919179 2020] [php7:notice] [pid 41268] [client ::1:59038] PHP Stack trace:
+[Fri May 22 03:18:56.919209 2020] [php7:notice] [pid 41268] [client ::1:59038] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0
+[Fri May 22 03:18:56.919744 2020] [php7:notice] [pid 41268] [client ::1:59038] PHP Fatal error:  Uncaught Error: Call to undefined method Rox\\Foreup_api::timezone_offset_get() in /Users/rox/dvb/psr4/src/Foreup_api.php:98\nStack trace:\n#0 /Users/rox/dvb/psr4/public/index.php(44): Rox\\Foreup_api->CreateCustomer('903', Object(stdClass))\n#1 {main}\n  thrown in /Users/rox/dvb/psr4/src/Foreup_api.php on line 98
+[Fri May 22 03:20:06.818058 2020] [php7:notice] [pid 41366] [client ::1:59069] PHP Warning:  Creating default object from empty value in /Users/rox/dvb/psr4/public/index.php on line 27
+[Fri May 22 03:20:06.818322 2020] [php7:notice] [pid 41366] [client ::1:59069] PHP Stack trace:
+[Fri May 22 03:20:06.818340 2020] [php7:notice] [pid 41366] [client ::1:59069] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0
+[Fri May 22 03:20:06.819030 2020] [php7:notice] [pid 41366] [client ::1:59069] PHP Fatal error:  Uncaught Error: Class 'Rox\\DateTimeZone' not found in /Users/rox/dvb/psr4/src/Foreup_api.php:98\nStack trace:\n#0 /Users/rox/dvb/psr4/public/index.php(44): Rox\\Foreup_api->CreateCustomer('903', Object(stdClass))\n#1 {main}\n  thrown in /Users/rox/dvb/psr4/src/Foreup_api.php on line 98
+[Fri May 22 03:22:08.970901 2020] [php7:notice] [pid 41367] [client ::1:59141] PHP Warning:  Creating default object from empty value in /Users/rox/dvb/psr4/public/index.php on line 27
+[Fri May 22 03:22:08.971344 2020] [php7:notice] [pid 41367] [client ::1:59141] PHP Stack trace:
+[Fri May 22 03:22:08.971376 2020] [php7:notice] [pid 41367] [client ::1:59141] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0
+[Fri May 22 03:22:08.972033 2020] [php7:notice] [pid 41367] [client ::1:59141] PHP Fatal error:  Uncaught Error: Class 'Rox\\DateTime' not found in /Users/rox/dvb/psr4/src/Foreup_api.php:98\nStack trace:\n#0 /Users/rox/dvb/psr4/public/index.php(44): Rox\\Foreup_api->CreateCustomer('903', Object(stdClass))\n#1 {main}\n  thrown in /Users/rox/dvb/psr4/src/Foreup_api.php on line 98
+[Fri May 22 03:22:42.040910 2020] [php7:notice] [pid 41269] [client ::1:59166] PHP Warning:  Creating default object from empty value in /Users/rox/dvb/psr4/public/index.php on line 27
+[Fri May 22 03:22:42.041207 2020] [php7:notice] [pid 41269] [client ::1:59166] PHP Stack trace:
+[Fri May 22 03:22:42.041230 2020] [php7:notice] [pid 41269] [client ::1:59166] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0
+[Fri May 22 03:22:42.042791 2020] [php7:notice] [pid 41269] [client ::1:59166] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /Users/rox/dvb/psr4/src/Foreup_api.php:109\nStack trace:\n#0 /Users/rox/dvb/psr4/public/index.php(44): Rox\\Foreup_api->CreateCustomer('903', Object(stdClass))\n#1 {main}\n  thrown in /Users/rox/dvb/psr4/src/Foreup_api.php on line 109
+[Fri May 22 03:24:49.341866 2020] [php7:notice] [pid 41268] [client ::1:59217] PHP Warning:  Creating default object from empty value in /Users/rox/dvb/psr4/public/index.php on line 27
+[Fri May 22 03:24:49.342359 2020] [php7:notice] [pid 41268] [client ::1:59217] PHP Stack trace:
+[Fri May 22 03:24:49.342390 2020] [php7:notice] [pid 41268] [client ::1:59217] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0
+[Fri May 22 03:24:49.343092 2020] [php7:notice] [pid 41268] [client ::1:59217] PHP Fatal error:  Uncaught Error: Call to undefined method Rox\\Foreup_api::getToken() in /Users/rox/dvb/psr4/src/Foreup_api.php:117\nStack trace:\n#0 /Users/rox/dvb/psr4/public/index.php(44): Rox\\Foreup_api->CreateCustomer('903', Object(stdClass))\n#1 {main}\n  thrown in /Users/rox/dvb/psr4/src/Foreup_api.php on line 117
+[Fri May 22 03:26:13.215378 2020] [php7:notice] [pid 41265] [client ::1:59278] PHP Warning:  Creating default object from empty value in /Users/rox/dvb/psr4/public/index.php on line 27
+[Fri May 22 03:26:13.215863 2020] [php7:notice] [pid 41265] [client ::1:59278] PHP Stack trace:
+[Fri May 22 03:26:13.215895 2020] [php7:notice] [pid 41265] [client ::1:59278] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0
+[Fri May 22 03:26:23.535153 2020] [php7:notice] [pid 41265] [client ::1:59278] PHP Fatal error:  Uncaught Error: Call to undefined method Httpful\\Response::message() in /Users/rox/dvb/psr4/src/Foreup_api.php:129\nStack trace:\n#0 /Users/rox/dvb/psr4/public/index.php(44): Rox\\Foreup_api->CreateCustomer('903', Object(stdClass))\n#1 {main}\n  thrown in /Users/rox/dvb/psr4/src/Foreup_api.php on line 129
+[Fri May 22 03:28:18.660170 2020] [php7:notice] [pid 41367] [client ::1:59329] PHP Warning:  Creating default object from empty value in /Users/rox/dvb/psr4/public/index.php on line 27, referer: http://localhost/public/
+[Fri May 22 03:28:18.660890 2020] [php7:notice] [pid 41367] [client ::1:59329] PHP Stack trace:, referer: http://localhost/public/
+[Fri May 22 03:28:18.660954 2020] [php7:notice] [pid 41367] [client ::1:59329] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0, referer: http://localhost/public/
+[Fri May 22 03:28:28.939580 2020] [php7:notice] [pid 41367] [client ::1:59329] PHP Fatal error:  Uncaught Error: Call to undefined method Httpful\\Response::message() in /Users/rox/dvb/psr4/src/Foreup_api.php:129\nStack trace:\n#0 /Users/rox/dvb/psr4/public/index.php(44): Rox\\Foreup_api->CreateCustomer('903', Object(stdClass))\n#1 {main}\n  thrown in /Users/rox/dvb/psr4/src/Foreup_api.php on line 129, referer: http://localhost/public/
+[Fri May 22 03:35:18.471979 2020] [php7:notice] [pid 41268] [client ::1:59460] PHP Warning:  Creating default object from empty value in /Users/rox/dvb/psr4/public/index.php on line 27, referer: http://localhost/public/
+[Fri May 22 03:35:18.472604 2020] [php7:notice] [pid 41268] [client ::1:59460] PHP Stack trace:, referer: http://localhost/public/
+[Fri May 22 03:35:18.472638 2020] [php7:notice] [pid 41268] [client ::1:59460] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0, referer: http://localhost/public/
+[Fri May 22 03:39:16.094879 2020] [php7:notice] [pid 41268] [client ::1:59460] PHP Fatal error:  Uncaught Error: Call to undefined method Httpful\\Response::message() in /Users/rox/dvb/psr4/src/Foreup_api.php:129\nStack trace:\n#0 /Users/rox/dvb/psr4/public/index.php(44): Rox\\Foreup_api->CreateCustomer('903', Object(stdClass))\n#1 {main}\n  thrown in /Users/rox/dvb/psr4/src/Foreup_api.php on line 129, referer: http://localhost/public/
+[Fri May 22 03:39:59.656216 2020] [php7:notice] [pid 41266] [client ::1:59590] PHP Warning:  Creating default object from empty value in /Users/rox/dvb/psr4/public/index.php on line 27, referer: http://localhost/public/
+[Fri May 22 03:39:59.656445 2020] [php7:notice] [pid 41266] [client ::1:59590] PHP Stack trace:, referer: http://localhost/public/
+[Fri May 22 03:39:59.656476 2020] [php7:notice] [pid 41266] [client ::1:59590] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0, referer: http://localhost/public/
+[Fri May 22 03:50:50.918536 2020] [php7:notice] [pid 41367] [client ::1:59897] PHP Warning:  Creating default object from empty value in /Users/rox/dvb/psr4/public/index.php on line 27, referer: http://localhost/public/
+[Fri May 22 03:50:50.918931 2020] [php7:notice] [pid 41367] [client ::1:59897] PHP Stack trace:, referer: http://localhost/public/
+[Fri May 22 03:50:50.918960 2020] [php7:notice] [pid 41367] [client ::1:59897] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0, referer: http://localhost/public/
+[Fri May 22 04:19:53.519242 2020] [php7:notice] [pid 41367] [client ::1:59897] PHP Fatal error:  Uncaught Error: Call to undefined method Httpful\\Response::message() in /Users/rox/dvb/psr4/src/Foreup_api.php:137\nStack trace:\n#0 /Users/rox/dvb/psr4/public/index.php(44): Rox\\Foreup_api->CreateCustomer('9039', Object(stdClass))\n#1 {main}\n  thrown in /Users/rox/dvb/psr4/src/Foreup_api.php on line 137, referer: http://localhost/public/
+[Fri May 22 04:20:03.939102 2020] [php7:notice] [pid 50404] [client ::1:60584] PHP Warning:  Creating default object from empty value in /Users/rox/dvb/psr4/public/index.php on line 27, referer: http://localhost/public/
+[Fri May 22 04:20:03.939355 2020] [php7:notice] [pid 50404] [client ::1:60584] PHP Stack trace:, referer: http://localhost/public/
+[Fri May 22 04:20:03.939370 2020] [php7:notice] [pid 50404] [client ::1:60584] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0, referer: http://localhost/public/
+[Fri May 22 04:20:07.981985 2020] [php7:notice] [pid 41268] [client ::1:60610] PHP Warning:  Creating default object from empty value in /Users/rox/dvb/psr4/public/index.php on line 27, referer: http://localhost/public/
+[Fri May 22 04:20:07.982266 2020] [php7:notice] [pid 41268] [client ::1:60610] PHP Stack trace:, referer: http://localhost/public/
+[Fri May 22 04:20:07.982288 2020] [php7:notice] [pid 41268] [client ::1:60610] PHP   1. {main}() /Users/rox/dvb/psr4/public/index.php:0, referer: http://localhost/public/

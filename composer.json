@@ -1,0 +1,23 @@
+{
+    "name": "rockycastaneda/psr4",
+    "description": "ForeUp Foreup_api Project",
+    "authors": [
+        {
+            "name": "Rocky Castaneda",
+            "email": "rockycastaneda@gmail.com"
+        }
+    ],
+    
+    "require": {
+        "php": ">=5.6.4",
+        "nategood/httpful": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rox\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+
+     
+}
