@@ -17,6 +17,8 @@ echo "<br/>";
 
 // SET FIELDS FOR CUSTOMER DATA
 $data = new \stdClass();
+$data->contact_info = new \stdClass();
+
 $data->username                                      = "username";
 $data->company_name                                  = "MyCOmpany";
 $data->taxable                                       = true;

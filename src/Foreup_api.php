@@ -137,8 +137,6 @@ class Foreup_api
 					$response = new \stdClass();
 					$response->success = true;
 					$response->message = 'Successfully added a customer';
-					$this->setToken($response->token);
-					$this->setValidUser(true);
 				} else {
 					$response = new \stdClass();
 					$response->success = false;
@@ -146,7 +144,7 @@ class Foreup_api
 					$response->message = "Error: Unable to add a customer";				
 				}
 				
-				var_dump($response);
+				//var_dump($response);
 
 			} catch (exception $e) {
 				$response = new \stdClass();
