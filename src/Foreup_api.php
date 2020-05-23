@@ -43,7 +43,7 @@ class Foreup_api
 
 	public function authenticate($email, $password) {
 
-		$uri = "https://mobile.foreupsoftware.com/api_rest/index.php/tokens";
+		$uri = "https://private-anon-66058d2620-foreup.apiary-mock.com/api_rest/index.php/tokens";
 		
 		$credentialsObj = new \stdClass();
 		$credentialsObj->email = $email;
@@ -96,8 +96,8 @@ class Foreup_api
 
 
 	public function CreateCustomer($courseId, $data) {
-
-		$uri = "https://mobile.foreupsoftware.com/api_rest/index.php/courses/" . $courseId . "/customers";
+			    
+		$uri = "https://private-anon-66058d2620-foreup.apiary-mock.com/api_rest/index.php/courses/" . $courseId . "/customers";
 		$response = new \stdClass();
 		$response->success = false;
 
